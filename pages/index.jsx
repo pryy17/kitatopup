@@ -47,14 +47,17 @@ const Index = () => {
                   </button>
                 </div>
                 <div className="w-full absolute">
-                  <img className="w-[100em] opacity-70 transition delay-1000" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a44778ea-3457-40e0-8979-b7e3685d23d0/dfas4gh-d969d143-d63b-4620-8dba-9c7b6aa3f55e.png/v1/fill/w_1280,h_720/sun_wicked_flames_collector_skin_8k_png_by_newjer53_dfas4gh-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYTQ0Nzc4ZWEtMzQ1Ny00MGUwLTg5NzktYjdlMzY4NWQyM2QwXC9kZmFzNGdoLWQ5NjlkMTQzLWQ2M2ItNDYyMC04ZGJhLTljN2I2YWEzZjU1ZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.TTnyckQMuOKs6FVwhKPdRmsjk3FVpnkLJXz7AdxL5-Q" />
+                  <img
+                    className="w-[100em] opacity-70 transition delay-1000"
+                    src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a44778ea-3457-40e0-8979-b7e3685d23d0/dfas4gh-d969d143-d63b-4620-8dba-9c7b6aa3f55e.png/v1/fill/w_1280,h_720/sun_wicked_flames_collector_skin_8k_png_by_newjer53_dfas4gh-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvYTQ0Nzc4ZWEtMzQ1Ny00MGUwLTg5NzktYjdlMzY4NWQyM2QwXC9kZmFzNGdoLWQ5NjlkMTQzLWQ2M2ItNDYyMC04ZGJhLTljN2I2YWEzZjU1ZS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.TTnyckQMuOKs6FVwhKPdRmsjk3FVpnkLJXz7AdxL5-Q"
+                  />
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>Slide 2</SwiperSlide>
           </Swiper>
         </div>
-        <div className="bg-[#393d47] px-28 py-10 flex space-x-3">
+        <div className="bg-gradient-to-r from-[#DC39FC] to-[#6244EC] px-28 py-10 flex space-x-3">
           <div className="w-fit px-8 py-4 border-[1px] border-white rounded-full text-white">
             <p>Lagi Populer</p>
           </div>
