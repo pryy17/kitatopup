@@ -18,7 +18,7 @@ const CardGame = () => {
           <img
             className={`rounded-2xl w-60 ${
               isVisible ? "-translate-y-16" : ""
-            } transition delay-100 z-50`}
+            } transition delay-100 z-40`}
             src="https://kitatopup.id/uploads/server1/ROOGLINK.webp"
           />
           <div

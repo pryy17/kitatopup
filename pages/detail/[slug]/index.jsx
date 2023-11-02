@@ -8,7 +8,7 @@ const Detail = () => {
   return (
     <div className="mb-16">
       <Nav />
-      <div className="overflow-hidden">
+      <div className="">
         <div className="bg-gradient-to-r from-[#795FEE] to-[#DF55FB] w-full h-[28em] flex items-center px-28">
           <h3 className="w-[60%] font-bold text-white text-5xl">
             Ragnarok Origin Global - Package
@@ -17,8 +17,8 @@ const Detail = () => {
             {"Home > Ragnarok Origin Global - Package"}
           </p>
         </div>
-        <div className="grid grid-cols-12 w-full px-28 bg-[#222232] py-20 gap-5 ">
-          <div className="col-span-3 bg-[#232529] rounded-xl h-fit -translate-y-44">
+        <div className="grid grid-cols-12 w-full px-28 bg-[#222232] py-20 gap-5 relative">
+          <div className="sticky top-48 col-span-3 bg-[#232529] rounded-xl h-fit -translate-y-44">
             <div className="flex flex-col justify-center items-center py-4 px-5 ">
               <img
                 className="w-64 rounded-xl"
