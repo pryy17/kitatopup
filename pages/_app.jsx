@@ -1,7 +1,7 @@
-import { AppProps } from "next/app";
 import "../styles/globals.css";
+import 'swiper/css';
 
-const App = ({ Component, pageProps }: AppProps) => {
+const App = ({ Component, pageProps }) => {
   return (
     <>
       <Component {...pageProps} />
