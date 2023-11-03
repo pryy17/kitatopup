@@ -3,6 +3,7 @@ import Head from "next/head";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {
   Autoplay,
+  EffectCards,
   EffectCoverflow,
   Navigation,
   Pagination
@@ -10,6 +11,8 @@ import {
 import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
+import "swiper/css/effect-cards";
+
 import { FaPaperPlane } from "react-icons/fa";
 
 const Index = () => {
@@ -26,10 +29,10 @@ const Index = () => {
           <Swiper
             spaceBetween={50}
             slidesPerView={1}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
             modules={[Navigation]}
             className="h-screen bg-[#222232]"
+            simulateTouch={false}
+            navigation={true}
           >
             <SwiperSlide>
               <div className="flex text-white relative">
@@ -54,7 +57,48 @@ const Index = () => {
                 </div>
               </div>
             </SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
+            <SwiperSlide>
+              <div className="grid grid-cols-2">
+                <div className="text-white ">
+                  <div className="ps-28 z-40">
+                    <h1 className="text-7xl font-medium mt-28 mb-6">
+                      Hemat Biaya dengan Layanan Terpercaya
+                    </h1>
+                    <p className="text-lg opacity-75">
+                      Kemudahan Top Up Game dengan Nikmati Kemudahan Top Up
+                      Kapan Saja, di Mana Saja dengan Akita TopUp: Proses Cepat
+                      dan Aman Tanpa Ribet!
+                    </p>
+                    <button className="text-xl flex items-center bg-gradient-to-r from-[#DC39FC] to-[#6244EC] px-8 py-3 rounded-full mt-12">
+                      <FaPaperPlane className="me-3" /> explore
+                    </button>
+                  </div>
+                </div>
+                <Swiper
+                  effect={"cards"}
+                  grabCursor={true}
+                  modules={[EffectCards]}
+                  className="w-[40%] mt-28 ms-0 h-fit me-36"
+                  cardsEffect={{
+                    perSlideOffset: 30
+                  }}
+                  autoplay={{
+                    delay: 1000,
+                    disableOnInteraction: false
+                  }}
+                >
+                  <SwiperSlide>
+                    <CardGame />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <CardGame />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <CardGame />
+                  </SwiperSlide>
+                </Swiper>
+              </div>
+            </SwiperSlide>
           </Swiper>
         </div>
         <div className="sticky top-0 z-50 bg-gradient-to-r from-[#DC39FC] to-[#6244EC] px-28 py-10 flex space-x-3">

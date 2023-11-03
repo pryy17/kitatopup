@@ -1,5 +1,5 @@
 import React, { useState, Fragment } from "react";
-import { Nav } from "@/components";
+import { Nav, Footer } from "@/components";
 import { Dialog, Transition } from "@headlessui/react";
 
 const Detail = () => {
@@ -9,7 +9,7 @@ const Detail = () => {
     <div className="mb-16">
       <Nav />
       <div className="">
-        <div className="bg-gradient-to-r from-[#795FEE] to-[#DF55FB] w-full h-[28em] flex items-center px-28">
+        <div className="bg-gradient-to-r from-[#795FEE] to-[#DF55FB] w-full h-[28em] flex items-center px-28 ">
           <h3 className="w-[60%] font-bold text-white text-5xl">
             Ragnarok Origin Global - Package
           </h3>
@@ -118,6 +118,7 @@ const Detail = () => {
           </div>
         </div>
       </div>
+      <Footer />
 
       <div className="bg-[#232529] h-24 w-full fixed bottom-0 flex text-white">
         <div className="ms-auto w-[40%]">
