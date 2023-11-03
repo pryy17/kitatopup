@@ -58,8 +58,8 @@ const Index = () => {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="grid grid-cols-2">
-                <div className="text-white ">
+              <div className="grid grid-cols-2 relative">
+                <div className="text-white z-10">
                   <div className="ps-28 z-40">
                     <h1 className="text-7xl font-medium mt-28 mb-6">
                       Hemat Biaya dengan Layanan Terpercaya
@@ -130,6 +130,7 @@ const Index = () => {
             pagination={true}
             modules={[EffectCoverflow, Pagination, Autoplay]}
             className="w-[70%]"
+            navigation={true}
           >
             <SwiperSlide>
               <CardGame />

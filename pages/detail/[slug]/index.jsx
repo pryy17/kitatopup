@@ -46,20 +46,37 @@ const Detail = () => {
             </div>
             <div className="mt-10">
               <p className="text-white">nominal topup</p>
-              <div className="grid grid-cols-3 mt-5 gap-3">
-                <button className="text-white hover:bg-gradient-to-r delay-75 transition hover:-translate-y-2 hover:from-[#DC39FC] hover:to-[#6244EC] px-5 py-6 rounded-lg whitespace-pre w-full text-center border-[1px] border-[#fff]">
+              <div className="grid grid-cols-3 mt-5 gap-y-4 gap-x-3">
+                <button className="grid justify-items-center text-white  whitespace-pre-line h-fit hover:bg-gradient-to-r delay-75 transition hover:-translate-y-2 hover:from-[#DC39FC] hover:to-[#6244EC] px-2 py-3 rounded-lg text-center border-[1px] border-[#fff]">
+                  <img
+                    className="w-12"
+                    alt="icon berry"
+                    src="https://assets.lapakgaming.com/lapakgaming/images/rebranding/Icon_per_Denom/ragnarok_origin_6.png?tr=w-96%2Cq-75"
+                  />
                   <p>Battle Pass Ace Special Edition 22$</p>
                 </button>
-                <button className="text-white hover:bg-gradient-to-r delay-75 transition hover:-translate-y-2 hover:from-[#DC39FC] hover:to-[#6244EC] px-5 py-6 rounded-lg whitespace-pre w-full text-center border-[1px] border-[#fff]">
+                <button className="grid justify-items-center text-white  whitespace-pre-line h-fit hover:bg-gradient-to-r delay-75 transition hover:-translate-y-2 hover:from-[#DC39FC] hover:to-[#6244EC] px-2 py-3 rounded-lg text-center border-[1px] border-[#fff]">
+                  <img
+                    className="w-12"
+                    alt="icon berry"
+                    src="https://assets.lapakgaming.com/lapakgaming/images/rebranding/Icon_per_Denom/ragnarok_origin_6.png?tr=w-96%2Cq-75"
+                  />
                   <p>Battle Pass Ace Special Edition 22$</p>
                 </button>
-                <button className="text-white hover:bg-gradient-to-r delay-75 transition hover:-translate-y-2 hover:from-[#DC39FC] hover:to-[#6244EC] px-5 py-6 rounded-lg whitespace-pre w-full text-center border-[1px] border-[#fff]">
+                <button className="grid justify-items-center text-white  whitespace-pre-line h-fit hover:bg-gradient-to-r delay-75 transition hover:-translate-y-2 hover:from-[#DC39FC] hover:to-[#6244EC] px-2 py-3 rounded-lg text-center border-[1px] border-[#fff]">
+                  <img
+                    className="w-12"
+                    alt="icon berry"
+                    src="https://assets.lapakgaming.com/lapakgaming/images/rebranding/Icon_per_Denom/ragnarok_origin_6.png?tr=w-96%2Cq-75"
+                  />
                   <p>Battle Pass Ace Special Edition 22$</p>
                 </button>
-                <button className="text-white hover:bg-gradient-to-r delay-75 transition hover:-translate-y-2 hover:from-[#DC39FC] hover:to-[#6244EC] px-5 py-6 rounded-lg whitespace-pre w-full text-center border-[1px] border-[#fff]">
-                  <p>Battle Pass Ace Special Edition 22$</p>
-                </button>
-                <button className="text-white hover:bg-gradient-to-r delay-75 transition hover:-translate-y-2 hover:from-[#DC39FC] hover:to-[#6244EC] px-5 py-6 rounded-lg whitespace-pre w-full text-center border-[1px] border-[#fff]">
+                <button className="grid justify-items-center text-white  whitespace-pre-line h-fit hover:bg-gradient-to-r delay-75 transition hover:-translate-y-2 hover:from-[#DC39FC] hover:to-[#6244EC] px-2 py-3 rounded-lg text-center border-[1px] border-[#fff]">
+                  <img
+                    className="w-12"
+                    alt="icon berry"
+                    src="https://assets.lapakgaming.com/lapakgaming/images/rebranding/Icon_per_Denom/ragnarok_origin_6.png?tr=w-96%2Cq-75"
+                  />
                   <p>Battle Pass Ace Special Edition 22$</p>
                 </button>
               </div>

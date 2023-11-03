@@ -1,5 +1,6 @@
+import Link from "next/link";
 import React from "react";
-import {FaSearch} from "react-icons/fa"
+import { FaSearch } from "react-icons/fa";
 
 export default function Nav() {
   return (
@@ -32,7 +33,7 @@ export default function Nav() {
         </div>
         <div className="flex align-middle items-center text-white ms-auto space-x-6">
           <div class="relative">
-            <FaSearch className="absolute fa fa-search text-gray-400 top-5 left-4"/>
+            <FaSearch className="absolute fa fa-search text-gray-400 top-5 left-4" />
             <input
               type="text"
               className="bg-white text-black h-14 w-full px-12 rounded-lg focus:outline-none"
@@ -40,9 +41,11 @@ export default function Nav() {
               name=""
             />
           </div>
-          <div className="bg-gradient-to-r from-[#DC39FC] to-[#6244EC] px-8 py-3 rounded-full">
-            <p>login</p>
-          </div>
+          <Link href="/login">
+            <div className="bg-gradient-to-r from-[#DC39FC] to-[#6244EC] px-8 py-3 rounded-full">
+              <p>login</p>
+            </div>
+          </Link>
         </div>
       </nav>
     </div>
